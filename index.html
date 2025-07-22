@@ -172,10 +172,10 @@
         }
         
         .hour-summary {
-            padding: 15px 20px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-top: 20px
         }
         
         .hour-time {
@@ -186,7 +186,7 @@
         
         .hour-conditions {
             display: flex;
-            gap: 30px;
+            gap: 35px;
             align-items: center;
         }
         
