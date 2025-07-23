@@ -152,7 +152,6 @@
             border-radius: 15px;
             padding: 10px;
             border: 1px solid rgba(255, 255, 255, 0.2);
-            justify-content: center;
         }
         
         .hourly-forecast h3 {
@@ -166,7 +165,6 @@
             margin-bottom: 10px;
             border-radius: 10px;
             transition: all 0.3s;
-            min-width: 320px;
         }
         
         .hour-item:hover {
@@ -417,7 +415,7 @@
             const intensityInches = intensity * 0.03937;
             
             if (intensityInches <= 0.10) return 'Light';
-            if (intensityInches <= 0.30) return 'Moderate';
+            if (intensityInches <= 0.30) return 'Mod';
             return 'Heavy';
         }
 
